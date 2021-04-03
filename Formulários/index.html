@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>Tabelas Estilizadas</title>
+</head>
+
+<body>
+   <div id="conteudo">
+    <h2>Estilizando Formulários</h2>
+    <table>
+        <fieldset>
+            <legend>Detalhes de contato</legend>
+            <div>
+                <label for="nome">nome</label>
+                <!--a tag for e id devem possuir o mesmo valor para fins de acessibilidade-->
+                <input type="text" name="Nome" id="nome" placeholder="nome completo">
+            </div>
+
+            <div>
+                <label for="email">e-mail</label>
+                <!--a tag for e id devem possuir o mesmo valor para fins de acessibilidade-->
+                <input type="email" name="email" id="email" placeholder="email">
+            </div>
+
+            <div>
+                <label for="url">URL</label>
+                <!--a tag for e id devem possuir o mesmo valor para fins de acessibilidade-->
+                <input type="url" name="url" id="url" placeholder="uma URL, se possuir">
+            </div>
+
+        </fieldset>
+    </table>
+
+    <fieldset>
+        <legend>Comentários</legend>
+        <div>
+            <label for="mensagem">Mensagens:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="escreva seu texto aqui, seja objetivo e breve"></textarea>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Lembrar de mim</legend>
+
+        <div>
+            <label for=""></label>
+            <input class="radio" type="radio" name="lembrar" id="sim">Sim
+        </div>
+        <div>
+            <label for=""></label>
+            <input class="radio" type="radio" name="lembrar" id="nao">Não
+        </div>
+
+    </fieldset>
+   </div>
+</body>
+
+</html>

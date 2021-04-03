@@ -1,0 +1,33 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#conteudo{
+    width: 40%;
+}
+fieldset{
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    /* por padrão o label é inline, se alterarmos para block, ficará acima de nossa caixa de texto*/
+    display: block;
+    cursor: pointer;
+}
+input [type="text"]{
+    width: 70%;
+}
+textarea{
+    width: 25em;
+    height: 15em;
+}
+input.radio, input.checkbox, input.submit{
+    width: auto;
+}
+.radio{
+    margin-right: 1em;
+}

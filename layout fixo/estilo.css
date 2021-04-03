@@ -1,0 +1,93 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    border: 1px solid red;
+    width: 100%; /*540px*/
+    margin: 0 auto;
+    background: #fff;
+    min-width: 620px;
+    /*  max-width: ; min-height: max-height: ;; */
+}
+
+#marca {
+    width: 100%;
+    height: 100px;
+    background: #000000;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+#conteudo {
+    border: 1px solid blue;
+    width: 73%; /*540px;*/
+    float: right;
+    background: #a9a9a9;
+}
+
+#navegacao {
+    border: 1px solid rgb(84, 47, 204);
+    height: 205.81px;
+    width: 25% ; /*180px;*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+
+}
+#conteudo-principal {
+    border: 1px solid yellow;
+    width: 64%; /*340px;*/
+    float: left;
+
+}
+
+#conteudo-principal h2,
+#conteudo-principal p {
+    text-align: center;
+}
+
+#conteudo-secundario {
+    border: 1px solid yellow;
+    width: 34%; /*180px;*/
+    float: right;
+    background: #d1d1d1;
+
+    text-align: center;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+#rodape {
+    clear: both;
+    background: #000000;
+    padding: 5px;
+    text-align: center;
+    color: white
+}
+
+#navegacao ul {
+    list-style-type: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+    color: black;
+}
+
+#navegacao a:hover {
+    color: white;
+    background: black;
+    border-radius: 0.2rem;
+}
