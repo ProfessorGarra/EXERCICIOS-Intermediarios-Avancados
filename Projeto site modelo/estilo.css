@@ -3,10 +3,13 @@ body {
     font: 16px arial, helvetica, sans-serif;
 }
 
+
 #principal {
     /*border: 1px solid red;*/
     width: 900px;
     /*height: 500px;*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #menu {
@@ -53,6 +56,7 @@ h1 {
 #rodape {
     text-align: center;
 }
+
 h5 {
     font: 0.6em italic bold;
 }
