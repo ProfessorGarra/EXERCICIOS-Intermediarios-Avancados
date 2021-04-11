@@ -17,6 +17,7 @@ body {
     /*border: 1px solid red;*/
     padding: 18px;
     color: darkgray;
+    text-align: center;
     /*border-radius: 8px;*/
 }
 
@@ -30,7 +31,7 @@ a {
 
 a:hover {
     /* ao passar o mouse em cima muda para cor azul e aumenta o tamanho da fonte*/
-    color: blue;
+    color: #df0ecd;
     /*font-size: 17px;*/
 }
 
@@ -63,5 +64,12 @@ h5 {
 
 .img-campanha {
     border: 10px solid #c3c3ae;
+    margin-left: 110px;
+    
 
+}
+
+p {
+    text-align: justify;
+    text-indent: 35px;
 }
