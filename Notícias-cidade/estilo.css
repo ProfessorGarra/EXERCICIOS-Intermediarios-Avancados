@@ -1,0 +1,85 @@
+* {
+    max-resolution: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../../img/fundo.png )repeat-x;
+}
+
+#container {
+    width: 100%x;
+    margin: 0 auto;
+    border: 1px solid red;
+    min-width: 31, 51%;
+    max-width: 40%;
+}
+
+#topo {
+    color: white;
+    font-weight: bold;
+    height: 170px;
+    padding: 20px;
+    background: url(../../img/detalhe-topo.png)no-repeat right top;
+    border: 1px solid rgb(86, 51, 119);
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../../img/logo.png)no-repeat center;
+}
+#navegacao{
+    width: 76.5%;
+}
+    
+
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+#topo ul{
+    background: #b10333;
+    margin-top: 30px; 
+}
+
+#topo li{
+    display: inline-block;
+}
+
+#topo a{
+    text-decoration: none;
+    width: 80px;
+    padding: 0 1em;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    line-height: 2.1em;
+    color: white;
+    background: url(../../img/divisor.png) no-repeat left;
+}
+#topo .primeiro a{
+    background: none;
+}
+ #topo a:hover {
+     color: #69001d;
+     transition: 0.4s;
+ }
+
+ body.home #navegacao a#home,
+ body.brasil #navegacao a#brasil,
+ body.esportes #navegacao a#esportes,
+ body.economia #navegacao a#economia,
+ body.exterior #navegacao a#exterior,
+ body.comercio #navegacao a#comercio,
+ body.escola #navegacao a#escola,
+ body.parque #navegacao a#parque,
+ body.ciencia #navegacao a#ciencia
+ { 
+color: white;
+background: #de003e;
+cursor: text;
+ }
