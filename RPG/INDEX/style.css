@@ -1,0 +1,113 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fieldsetmain {
+    margin: 10px auto;
+    border: brown solid;
+    border-radius: 10px;
+    width: 31.5%;
+}
+
+a {
+
+    font: italic bold 15px "Lucida Sans Unicode", "lucida grande", sans-serif;
+    color: white;
+    border: brown;
+}
+
+h2 {
+    font: italic bold 15px "Lucida Sans Unicode", "lucida grande", sans-serif;
+    color: white;
+}
+
+.menuL ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0px 20px 18px;
+}
+
+.menuR ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0px 20px -3px;
+}
+
+.menuL a {
+    text-decoration: none;
+    color: goldenrod;
+    width: 120px;
+    display: block;
+    border-radius: 2rem;
+    border: goldenrod solid;
+    padding: 15px;
+    font-size: 15px;
+    margin:5px ;
+    font: helvetica;
+    transition: 0.4s;
+}
+.menuR a {
+    text-decoration: none;
+    color: goldenrod;
+    width: 120px;
+    display: block;
+    border-radius: 2rem;
+    border: goldenrod solid;
+    padding: 15px;
+    font-size: 15px;
+    margin:5px ;
+    font: helvetica;
+    transition: 0.4s;
+}
+
+.nalinha1 {
+    display: inline;
+    margin: 10px 0px 10px 20px;
+}
+
+.nalinha2 {
+    display: inline;
+}
+
+fieldset {
+    width: 23%;
+}
+
+legend {
+    font: bold 10px "Lucida Sans Unicode", "lucida grande", sans-serif;
+    color: white;
+}
+
+input {
+    display: inline;
+}
+
+.header {
+    background: #444857;
+    height: 900px;
+    width: 180px;
+    text-align: center; 
+}
+
+.main {
+    background: #222222;
+    height: 900px; 
+}
+
+.aside {
+    background: #444857;
+    height: 900px;
+    width: 180px;
+    text-align: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 4.4fr 0.5fr;
+}

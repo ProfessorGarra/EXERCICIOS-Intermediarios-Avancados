@@ -1,0 +1,103 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+}
+
+#container {
+    width: 360px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#menu1 {
+    height: 100px;
+    background: #000000;
+    text-align: center;
+
+    color: white;
+}
+
+#conteudo-principal {
+    height: 400px;
+    background: #000000;
+    border-top: rgb(42, 42, 42) 5px solid;
+    border-bottom: rgb(42, 42, 42) 5px solid;
+
+    color: white;
+}
+
+#menu2 {
+    height: 100px;
+    background: #000000;
+    text-align: center;
+
+    color: white;
+
+}
+
+ul#navegart {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+}
+
+ul#navegarb {
+    display: inline-block;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul a {
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+ul a#top {
+    background: rgb(64, 64, 65);
+    border: solid 1px white;
+    border-radius: 0.4rem;
+    padding: 15px;
+}
+
+ul a#bot {
+    background: rgb(64, 64, 65);
+    border: solid 1px white;
+    border-radius: 0.4rem;
+    padding: 15px;
+}
+
+/*TABELA*/
+.quadrado {
+
+    height: 25px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin: 10px 4px 0 0;
+    text-align: right;
+
+}
+
+label {
+    display: inline-block;
+    width: 125px;
+    color: #FFFFFF;
+    text-align: left;
+    font: bold 1.3em italic;
+    padding: 0 0 4px 4px;
+
+}

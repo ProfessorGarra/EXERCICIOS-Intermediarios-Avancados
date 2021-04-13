@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+#container{
+    height: 650px;
+    width: 420px;
+    margin: 0px auto;
+    background-image: url("../img/Pergaminho.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    
+    
+    
+}
+
+body {
+
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tabela-habilidade {
+    height: 600px;
+    width: 400px;
+    margin: 100px auto;
+
+
+    display: grid;
+    gap: 0.5rem;
+    /* 1 rem = 16 px*/
+
+    /* Explicit grid */
+    grid-template-areas:
+        'a   a   a   b   b'
+        'c   c   c   b   b'
+        'c   c   c   b   b'
+        'd   d   d   f   g'
+        'e   e   e   f   g';
+    /*'26  27  28  29  30'
+        '31  32  33  34  35'*/
+
+    /* grid-template-rows: repeat(5, 20%);
+    grid-template-columns: repeat(5, 20%);*/
+    /*grid-template-columns: 240px auto auto 240px;*/
+
+    --stagger-delay: 100ms;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    animation: cardEntrance 700ms ease-out;
+    animation-fill-mode: backwards;
+}
+
+.card:nth-child(1) {
+    grid-area: a;
+}
+
+.card:nth-child(2) {
+    grid-area: b;
+}
+
+.card:nth-child(3) {
+    grid-area: c;
+}
+
+.card:nth-child(4) {
+    grid-area: d;
+}
+
+.card:nth-child(5) {
+    grid-area: e;
+}
+
+.card:nth-child(6) {
+    grid-area: f;
+}
+
+.card:nth-child(7) {
+    grid-area: g;
+}
+
+.card:nth-child(8) {
+    grid-area: h;
+}
+
+.card:nth-child(9) {
+    grid-area: i;
+}
+
+.card:nth-child(10) {
+    grid-area: j;
+}
+
+.card:nth-child(11) {
+    grid-area: k;
+}
+
+.card:nth-child(12) {
+    grid-area: l;
+}
+
+.card:nth-child(13) {
+    grid-area: m;
+}
+
+/*
+.card:nth-child(14) {
+    grid-area: n;
+}
+
+.card:nth-child(15) {
+    grid-area: o;
+}
+
+.card:nth-child(16) {
+    grid-area: p;
+}
+
+.card:nth-child(17) {
+    grid-area: q;
+}
+
+.card:nth-child(18) {
+    grid-area: r;
+}
+
+.card:nth-child(19) {
+    grid-area: s;
+}
+
+.card:nth-child(20) {
+    grid-area: t;
+}
+
+.card:nth-child(21) {
+    grid-area: u;
+}
+
+.card:nth-child(22) {
+    grid-area: v;
+}
+
+.card:nth-child(23) {
+    grid-area: w;
+}
+
+.card:nth-child(24) {
+    grid-area: x;
+}
+
+.card:last-child {
+    grid-area: y;
+}*/

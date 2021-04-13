@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.field-set {
+    border-color: aliceblue;
+}
+
+.cx {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    
+}
+
+.cx-1 {
+    background-color: turquoise;
+}
+
+.cx-2 {
+    background-color: rgb(224, 221, 64);
+}
+
+.cx-3 {
+    background-color: rgb(88, 64, 224);
+}
+
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    /*gap: 5px;*/
+    text-align: center;
+    gap: 15px;
+    
+}
+
+#caixa01{
+    display: grid;
+    background: #111111;
+    width: 200px;
+    height: 50px;
+    border: red solid;
+    margin: auto;    
+}
+
+#container02{
+    display:subgrid;
+    background: #222222;
+    width: 50px;
+    height: 50px;
+    border: blue solid;
+    margin: 20px 30px;
+}
+
+
+
+/* background bonitão roxo #7159c1;*/
