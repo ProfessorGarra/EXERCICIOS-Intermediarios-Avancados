@@ -1,0 +1,58 @@
+@charset "UTF-8";
+:root {
+    /*variáveis no css*/
+    --color-background: #f0f07F7;
+    --color-primary-lighter: #9871f5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9c98a6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #e6e6f0;
+    --color-input-background: #f8f8fc;
+    --color-button-text: #ffffff;
+    --color-box-base: #ffffff;
+    --color-box-footer: #fafafc;
+    --color-small-info: #c1bccc;
+    font-size: 60% /*controle das medidas rem (root elemente, relativo ao elemento o root)*/;
+    /* tamanho da fonte padrão: 16px 100% 1rem */
+}
+html,body{
+    height: 100vh;
+}
+body{
+    background-color:var(--color-background);
+    display: flex;
+    align-items: center; /* só funciona com display flex*/
+    justify-content: center; /* só funciona com display flex*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+container{ /*elementos comuns no box model*/
+    border: 1px solid red;
+    padding: 40px ; /*topo laterais base*/
+    margin: 40px 10px;
+    width: 300px;
+    height: 300px;
+}
+h1,span,a{
+    widt: 105px;
+}
+
+body,input,buttom,textarea{
+    font: 500 1.6rem poppins;
+    color: var(--color-text-base);
+}
+#container{
+    width: 90vw;
+    max-width: 900px;
+}
